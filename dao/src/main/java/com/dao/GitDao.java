@@ -2,10 +2,13 @@ package com.dao;
 
 public class GitDao {
 	/**
-	 * 修改编码格式为UTF-8
+	 * 淇敼缂栫爜鏍煎紡涓篣TF-8
 	 */
 	public void update() {
-		System.out.println("完成修改方法");
-		System.out.println("更新修改方法");
+		System.out.println("瀹屾垚淇敼鏂规硶");
+		System.out.println("瀹屽杽淇敼鏂规硶");
+		System.out.println("锟斤拷锟斤拷锟睫改凤拷锟斤拷");
+		System.out.println("瀹屾垚淇敼鏂规硶");
+		System.out.println("瀹屽杽淇敼鏂规硶");
 	}
 }
