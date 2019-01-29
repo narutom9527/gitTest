@@ -6,5 +6,6 @@ public class GitDao {
 	 */
 	public void update() {
 		System.out.println("完成修改方法");
+		System.out.println("更新修改方法");
 	}
 }
