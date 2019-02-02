@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.dao.GitDao;
 
-@WebServlet("test")
+@WebServlet("/test")
 public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -22,7 +22,7 @@ public class TestServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html;charset=utf-8");
+		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.print(gd.message());
 	}
