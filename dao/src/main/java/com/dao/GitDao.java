@@ -15,7 +15,10 @@ public class GitDao {
 		System.out.println("完善修改方法");
 		System.out.println("更新修改方法");
     }
-	
+	public String message() {
+		return "测试成功！";
+				
+	}
 	public void readerAndWrite() {
 		File readerFile = new File("reader.txt");
 		File writeFile = new File("write.txt");
